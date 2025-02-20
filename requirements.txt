@@ -1,5 +1,4 @@
 fastapi[all]
-fastapi[standard]
 ultralytics
 Pillow
 uvicorn
