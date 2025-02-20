@@ -46,6 +46,3 @@ async def predict(file: UploadFile = File(...)):
 @app.get("/")
 async def home():
     return {"message": "Welcome to YOLO Inference API"}
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=5000)
